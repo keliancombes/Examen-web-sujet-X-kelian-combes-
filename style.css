@@ -1,0 +1,172 @@
+h1{border: 2px solid rgb(75 70 74);
+  border-radius: 0.5em;
+
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;}
+h2 { 
+    font-style: italic, 'Smooch Sans', 200px; border: 2px solid rgb(75 70 74);
+  border-radius: 0.5em;
+
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+h3{
+  
+   width: 1200px;
+}
+body {
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color: rgb(156, 156, 156);
+    
+    color: rgb(0, 0, 0);
+    
+    margin: 20;
+    
+}
+.kenshi {
+     max-width: 1000px;
+     
+}
+.carte {
+     max-width: 410px;
+     
+}
+.races {
+     max-width: 720px;
+     
+}
+.monde {
+     max-width: 740px;
+     
+}
+
+/* ... vos styles existants ... */
+
+body.dark-mode {
+  background-color: rgb(0, 0, 0);
+  color: rgb(156, 156, 156);
+}
+
+body.dark-mode .container {
+  background-color: rgb(0, 0, 0);
+  /* Ajoutez d'autres styles pour le dark mode si nécessaire */
+}
+
+body.dark-mode a {
+  color: rgb(156, 156, 156);
+}
+.wrapper2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.page-header,
+
+.page-footer {
+  background-color: rgb(75 70 74);
+  color: white;
+  padding: 20px;
+}
+.page-footer{
+  background-color: rgb(75 70 74);
+  color: white;
+  padding: 0px;
+}
+p {
+  margin: 0 0 1em 0;
+}
+.box1 {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(156, 156, 156);
+  transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+}
+
+.box1:hover {
+  background-color: #00ff00;
+  width: 200px;
+  height: 200px;
+  rotate: 180deg;
+}
+.box2 {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(156, 156, 156);
+  transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+}
+
+.box2:hover {
+  background-color: #ff0000;
+  width: 200px;
+  height: 200px;
+  rotate: 180deg;
+}
+.box3 {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(156, 156, 156);
+  transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+}
+
+.box3:hover {
+  background-color: #ffe600;
+  width: 200px;
+  height: 200px;
+  rotate: 180deg;
+}
+.box4 {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(156, 156, 156);
+  transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+}
+
+.box4:hover {
+  background-color: #ff00dd;
+  width: 200px;
+  height: 200px;
+  rotate: 180deg;
+}
+
+
